@@ -37,7 +37,7 @@ const SiteState = types.model({
 const DEFAULT = {
     loading: false,
     api: null,
-    contractAddress: "n1nm9owNTZQH3EAcgSc3NjDAfjfbQUmdYNc",
+    contractAddress: "n232Nw7xgGgYwz99N3TvGruqLw8A6k2spgf",
     nebState: null,
     nebPay: null,
     notification: "",
