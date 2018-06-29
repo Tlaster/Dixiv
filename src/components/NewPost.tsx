@@ -105,6 +105,7 @@ export default class NewPost extends React.Component<Props, State> {
                         email: store.user.model.email
                     }
                 });
+                _this.close();
             }
         };
         store.siteState.nebPay.call(to, value, callFunction, callArgs, options);
