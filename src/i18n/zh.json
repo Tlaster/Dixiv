@@ -1,0 +1,20 @@
+{
+  "app_name": "Dixiv",
+  "explore": "探索",
+  "newest": "最新",
+  "ranking": "最热",
+  "random": "随机",
+  "search": "搜索",
+  "input_user_name": "请输入用户名",
+  "confirm": "确认",
+  "input_user_name_desc": "请输入用户名以使用dixiv",
+  "user_name": "用户名",
+  "user_email": "邮箱",
+  "register": "注册",
+  "upload_image":"上传图片",
+  "cancel": "取消",
+  "remove_image": "删除图片",
+  "send_post": "发文！",
+  "post_content": "我在想...",
+  "empty_posts": "这空空如也，为什么不点击右下角来一发呢？"
+}

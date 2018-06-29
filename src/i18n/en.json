@@ -1,0 +1,20 @@
+{
+  "app_name": "Dixiv",
+  "explore": "Explore",
+  "newest": "Newest",
+  "ranking": "Ranking",
+  "random": "Random",
+  "search": "Search",
+  "input_user_name": "Please input user information",
+  "confirm": "confirm",
+  "input_user_name_desc": "Please input user information in order to use dixiv",
+  "user_name": "UserName",
+  "user_email": "Email",
+  "register": "register",
+  "upload_image":"Upload image",
+  "cancel": "Cancel",
+  "remove_image": "Remove image",
+  "send_post": "Send post",
+  "post_content": "What's in your mind?",
+  "empty_posts": "It's empty here, why not posting something?"
+}

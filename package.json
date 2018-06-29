@@ -1,0 +1,37 @@
+{
+  "name": "dixiv",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.2.3",
+    "bootstrap": "^4.1.1",
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.3",
+    "mobx-state-tree": "^2.2.0",
+    "nebpay.js": "^0.2.0",
+    "nebulas": "^0.5.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-gravatar": "^2.6.3",
+    "react-intl": "^2.4.0",
+    "react-scripts-ts": "2.16.0",
+    "reactstrap": "^6.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^4.1.1",
+    "@types/jest": "^23.1.1",
+    "@types/node": "^10.3.5",
+    "@types/react": "^16.4.1",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-gravatar": "^2.6.4",
+    "@types/react-intl": "^2.3.8",
+    "@types/reactstrap": "^6.0.0",
+    "typescript": "^2.9.2"
+  }
+}
