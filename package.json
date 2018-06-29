@@ -2,6 +2,7 @@
   "name": "dixiv",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://Tlaster.github.io/Dixiv",
   "dependencies": {
     "@material-ui/core": "^1.2.3",
     "bootstrap": "^4.1.1",
@@ -21,7 +22,9 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/bootstrap": "^4.1.1",
