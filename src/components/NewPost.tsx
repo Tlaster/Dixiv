@@ -54,17 +54,8 @@ export default class NewPost extends React.Component<Props, State> {
 
         if (this.state.file) {
             const apiURL = "https://ipfs.infura.io:5001/api/v0/";
-            var fileName = this.state.file.name;
-            var fileType = (fileName.substring(fileName.lastIndexOf(".") + 1, fileName.length)).toLowerCase();
-            if (fileType !== 'png' || fileType !== 'jpg' || fileType !== 'gif' || fileType !== 'bmp') {
-                store.siteState.sendNotification('请上传图片文件');
-                store.siteState.setLoading(false);
-                return;
-            }
-
-
             const FD = new FormData();
-            FD.append('file', this.state.file, this.state.file.name)
+            FD.append('file', this.state.file, this.state.file.name);
 
             fetch(apiURL + "add", { method: "post", body: FD })
                 .then(r => r.json())
@@ -106,10 +97,6 @@ export default class NewPost extends React.Component<Props, State> {
 
             listener: function (value: any) {
                 store.siteState.setLoading(false);
-                if (typeof value == 'string') {
-                    store.siteState.sendNotification("用户取消了支付！");
-                    return
-                }
                 _this.props.onCompleted({
                     media: media,
                     content: _this.state.content,

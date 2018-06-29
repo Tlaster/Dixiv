@@ -62,11 +62,6 @@ export default class InputUserInfo extends React.Component<Props, State> {
             listener: function (value: any) {
                 store.siteState.setLoading(false);
 
-                if (typeof value == 'string') {
-                    store.siteState.sendNotification("用户取消了支付！");
-                    return
-                }
-
                 store.user.update({
                     name: _this.state.name,
                     email: _this.state.email
