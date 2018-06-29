@@ -71,7 +71,7 @@ class App extends React.Component<Props, State> {
                         store.siteState.setLoading(false);
                     }).catch((reason: any) => {
                         store.siteState.setLoading(false);
-                        store.siteState.sendNotification("网络异常，请稍后再试。");
+                        store.siteState.setIsRegisterShowing(true);
                     });
                 }
             });
