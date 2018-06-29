@@ -38,6 +38,7 @@ class App extends React.Component<Props, State> {
         const api = neb.api;
         store.siteState.setApi(api);
         store.siteState.setNebPay(new NebPay());
+        var _this = this;
         api.getNebState().then((state: any) => {
             store.siteState.setNebState(state);
             window.addEventListener('message', (e) => {
@@ -62,6 +63,7 @@ class App extends React.Component<Props, State> {
                             var result = JSON.parse(resp.result);
                             if (result) {
                                 store.user.update(result);
+                                _this.inputUserInfoCompleted(result);
                             } else {
                                 store.siteState.setIsRegisterShowing(true);
                             }
